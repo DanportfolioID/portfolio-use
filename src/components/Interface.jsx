@@ -51,7 +51,7 @@ const AboutSection = () => {
            <span className="h10 text-6xl italic">Danson Loi</span>
          </h1>
       
-      <motion.p className="text-2xl text-lime-600  font-extrabold italic"
+      <motion.p className="text-2xl text-lime-500  font-extrabold italic"
          initial={{
          opacity: 0,
          y: 25,
@@ -67,8 +67,6 @@ const AboutSection = () => {
             
        <br />
         Lead Designer @ THE MAKEOVER GUYS
-        <br />
-        6 years Exp in ID & Renovation
 
       </motion.p>
 
