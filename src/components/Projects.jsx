@@ -105,7 +105,7 @@ export const Projects = () => {
           key={"project_" + index}
           position={[index * 1, 0, -3]}
           animate={{
-            x: -3 + (index - currentProject) * 6,
+            x: 0 + (index - currentProject) * 6,
             y: currentProject === index ? 1.5 : -0.1,
             z: currentProject === index ? -1 : -3,
             rotateX: currentProject === index ? 0 : -Math.PI / 3,
